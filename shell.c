@@ -49,10 +49,14 @@ void *remove_first_and_last_chars(char *chars);
 
 /* 
     Description: 
-        This program is a simplified unix shell implemented in C. Designed to run in a unix environment.
+        This program is a simplified unix shell implemented in C. 
+        Designed to run in a unix environment.
 
     Note:
-        The code does not correctly run processes in the background. When a process is run in the background, the output is not correctly presented and the process will become a 'zombie' after it completes it's execution. 
+        The code does not correctly run processes in the background.
+        When a process is run in the background, the output is not
+        correctly presented and the process will become a 'zombie'
+        after it completes it's execution. 
 */
 int main(int argc, char **argv)
 {
